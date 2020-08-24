@@ -1,8 +1,8 @@
-header {
+.header {
     width: 100%;
-    height: 100%;
+    height: 80px;
     background-color: white;
-    box-shadow: 0px 0px 10px grey;
+    box-shadow: 0 0 10px gray;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,6 @@ header {
 .menu ul {
     display: flex;
     list-style: none;
-
 }
 
 .menu ul li {
@@ -28,13 +27,13 @@ header {
     font-weight: bold;
 }
 
-.menu ul li a {
-    columns: #707070;
+.menu ul li a{
+    color: #707070;
     text-decoration: none;
 }
 
-.menu ul li.active a {
-    color:#E60004;
+.menu ul li.active a{
+    color: #E60004;
 }
 
 .banner {
@@ -46,7 +45,7 @@ header {
     margin-bottom: 65px;
 }
 
-.banner .container {
+.banner .container{
     width: 787px;
     display: flex;
     align-items: center;
@@ -54,14 +53,15 @@ header {
     flex-direction: column;
     text-align: center;
 }
-.banner h1 {
+
+.banner h1{
     font-size: 42px;
     font-weight: bold;
     color: white;
     margin-bottom: 63px;
 }
 
-.banner p {
+.banner p{
     font-size: 20px;
     color: white;
 }
@@ -73,7 +73,7 @@ header {
     margin-right: auto;
 }
 
-.content .row h2 {
+.content .row h2{
     font-size: 42px;
     font-weight: bold;
     color: #E60004;
@@ -92,7 +92,7 @@ header {
     justify-content: center;
     align-items: center;
     align-content: center;
-    
+    padding-top: 20px;
 }
 
 .complete_menu {
@@ -108,7 +108,7 @@ header {
 }
 
 .footer {
-    background-color: #142132;
+    background-color: #272727;
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -123,19 +123,17 @@ header {
     justify-content: space-between;
 }
 
-.footer .social_networks {
+.footer .social_networs {
     display: flex;
-    align-items: center;
 }
 
-.footer .social_networks img {
+.footer .social_networs img{
     margin-left: 15px;
-    width: 24px;
-    height: 24px;
 }
 
 /*
-        TODOS OS ATRIBUTOS SE APLICAM AS PÁGINAS INTERNAS
+
+    Daqui pra frente, todos os Atributos se aplicam as páginas internas
 */
 
 .title_internal_page {
@@ -147,15 +145,18 @@ header {
 .content_internal_page {
     padding-left: 30px;
     padding-right: 30px;
+    
 }
 
-.content_internal_page p {
+.content_internal_page p{
     margin-bottom: 20px;
     text-align: justify;
 }
 
-.content_internal_page h3 {
+
+.content_internal_page h3{
     color: #E60004;
     margin-top: 50px;
     margin-bottom: 20px;
+
 }
