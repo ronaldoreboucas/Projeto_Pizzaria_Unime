@@ -1,20 +1,19 @@
-@media(max-width: 1199px) {
+@media (max-width: 1199px) {
 
-    .content .row h2 {
+    .content .row h2{
         text-align: center;
     }
-    
-    .content .servico-list {
-       justify-content: center;
-    }
 
+    .content .product-list {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 820px) {
 
     .header {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         height: auto;
     }
 
@@ -23,9 +22,9 @@
         flex-direction: column;
     }
 
-    .header .container img {
+    .header .container img{
         margin-bottom: 20px;
-    }
+    }    
 
     .banner .container {
         padding-left: 30px;
@@ -33,41 +32,50 @@
     }
 
     .header .container .menu ul li:first-child {
-
-        margin-left: 0px;
+        margin-left: 0;
     }
-    
+
     .footer .container {
         flex-direction: column;
         align-items: center;
         text-align: center;
+
     }
 
-    .footer .container .address {
+    .footer .container .address{
         margin-bottom: 30px;
 
     }
+
 }
 
 @media (max-width: 630px) {
 
-    .servico_box {
+    .product_box {
         width: 100%;
         height: auto;
         flex-direction: column;
         align-items: center;
         margin-left: 30px;
         margin-right: 30px;
+        margin-bottom: 50px;
     }
 
-    .servico_box img {
+    .product_box img {
         width: 150px;
         height: 150px;
         margin-bottom: 20px;
+
     }
 
-    .servico_box .servico_deitail {
+    .product_box .product_detail {
         text-align: center;
+
+    }
+
+    .product_box .product_detail .price {
+        margin-bottom: 30px;
+
     }
 }
 
@@ -79,20 +87,19 @@
     }
 
     .header .container .menu ul li {
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
 
     .banner {
         height: auto;
         padding-top: 30px;
-        padding-left: 30px;
+        padding-bottom: 30px;
     }
 
-    .complete_servicos_container {
+    .complete_menu_container {
         padding-left: 30px;
         padding-right: 30px;
         text-align: center;
+
     }
-
-
 }
