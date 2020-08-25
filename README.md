@@ -3,4 +3,4 @@
 
 Este é um projeto de um site referente a uma pizzaria fictícia que foi desenvolvido durante o Curso de Férias de Desenvolvimento Web com HTML 5, CSS 3 e Javascript.
 
-Curso ministrado por: [Bugginho Developer](https://github.com/PHPauloReis){:target="_blank" rel="noopener"}
+Curso ministrado por: [Bugginho Developer](https://github.com/PHPauloReis)
